@@ -1,0 +1,12 @@
+
+
+extends layout
+
+block content
+  h1 Available Rooms
+  ul
+    each room in rooms
+      li
+        | Room Number: #{room.room_number}
+        | 
+        a(href='/book-room/#{room.id}') Book Now

@@ -1,0 +1,16 @@
+
+
+extends layout
+
+block content
+  h1 Book Room
+  form(action=`/book-room/${roomId}`, method='post')
+    label(for='studentName') Student Name:
+    input(type='text', name='studentName', required)
+    label(for='email') Email:
+    input(type='email', name='email', required)
+    label(for='phoneNumber') Phone Number:
+    input(type='text', name='phoneNumber', required)
+    label(for='duration') Duration (in days):
+    input(type='number', name='duration', required)
+    button(type='submit') Book Room

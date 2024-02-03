@@ -1,0 +1,28 @@
+
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  li {
+    flex: 1 1 200px;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid rgb(235, 12, 12);
+    border-radius: 5px;
+  }
+  
+  a {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  
+  

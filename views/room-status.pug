@@ -1,0 +1,18 @@
+
+
+extends layout
+
+block content
+  h1 Room Status
+  table
+    thead
+      tr
+        th Room ID
+        th Status
+        th Updated At
+    tbody
+      each status in roomStatus
+        tr
+          td= status.room_id
+          td= status.status
+          td= status.updated_at
